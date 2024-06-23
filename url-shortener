@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 url=$(xclip -o)
 short=$(curl -sG --data-urlencode "url=$url" http://da.gd/s)
